@@ -1,0 +1,108 @@
+:root {
+    --primary: #3C352A;
+    --light: #FCF9EC;
+    --alt: #A2A392;
+
+    --primary-hover: hsl(37, 18%, 28%);
+    --light-hover: hsl(49, 73%, 91%);
+    --alt-hover: hsl(64, 8%, 55%);
+}
+
+body {
+    font-size: 20px;
+    background-color: var(--light);
+}
+
+nav {
+    background-color: var(--alt);
+    color: var(--primary);
+}
+
+.landing {
+    background-color: var(--alt);
+}
+
+h1,h2,h3,h4,h5 {
+    color: var(--primary);
+}
+
+.btn-j-primary {
+    color: var(--light);
+    background-color: var(--primary);
+}
+
+.btn-j-primary:hover {
+    color: var(--light);
+    background-color: var(--primary-hover);
+}
+
+.btn-j-light {
+    color: var(--primary);
+    background-color: var(--light);
+}
+
+.btn-j-light:hover {
+    color: var(--primary-hover);
+    background-color: var(--light-hover);
+}
+
+.link-j-head {
+    color: var(--primary);
+    font-weight:bold;
+    text-decoration: none;
+}
+
+.link-j-sub {
+    color: var(--alt);
+    text-decoration: none;
+}
+
+.list-group {
+    font-size: 1rem;
+    border: 1px solid var(--alt);
+}
+
+.list-group-item {
+    border: none;
+    padding: 0.25rem 1rem
+}
+
+.list-group-item:hover {
+    background-color: var(--light);
+}
+
+.list-group-item.active {
+    background-color: var(--primary);
+    color: var(--light);
+    border-bottom: 1px solid var(--alt);
+    border-top: 1px solid var(--alt);
+
+    .link-j-head {
+        color: var(--light);
+    }
+}
+
+.list-group-item:first-child.active {
+    background-color: var(--primary);
+    border-top: none;
+    border-bottom: 1px solid var(--alt);
+
+    .link-j-head {
+        color: var(--light);
+    }
+}
+
+.list-group-item:last-child.active {
+    background-color: var(--primary);
+    color: var(--light);
+    border-top: 1px solid var(--alt);
+    border-bottom: none;
+
+    .link-j-head {
+        color: var(--light);
+    }
+}
+
+footer {
+    font-size: 1rem;
+}
