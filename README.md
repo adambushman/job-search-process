@@ -18,4 +18,4 @@ The purpose of this resource is to share what I learned to help YOU have the sam
 
 I'm confident you'll find what you're looking for, as I did.
 
-[Get started!](https://adam-bushman.com/project_posts/proj_wardrobe-database_003.html)
+[Get started!](https://adambushman.github.io/job-search-process/)
