@@ -36,6 +36,16 @@ h1,h2,h3,h4,h5 {
     background-color: var(--primary-hover);
 }
 
+.btn-j-primary-outline {
+    color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
+.btn-j-primary-outline:hover {
+    color: var(--light);
+    background-color: var(--primary);
+}
+
 .btn-j-light {
     color: var(--primary);
     background-color: var(--light);
@@ -109,4 +119,16 @@ footer {
 
 a {
     color: #BD4089;
+}
+
+.prev-next-label-r, .prev-next-label-l {
+    font-size: 0.85rem;
+}
+
+.prev-next-label-r {
+    text-align: end;
+}
+
+.prev-next-label-l {
+    text-align: start;
 }
